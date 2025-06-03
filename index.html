@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Eventos Sostenibles</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="script" href="">
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="logo">
+        <img src="logo_indra.png" alt="Logo de la empresa">
+      </div>
+      <h1>Portal Eventos Sostenibles</h1>
+    </div>
+
+    <nav class="menu-nav">
+      <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="listadoEventos.html">Listado eventos</a></li>
+      </ul>
+    </nav>
+    <div class="BotonesDerecha">
+      <button class="BotonIndividual">Iniciar sesión</button>
+
+    </div>
+  </header>
+  <main>
+    <h2>Eventos Destacados</h2>
+    <div class="carrusel-container">
+      <div class="carrusel" id="carrusel">
+        <a href="C_EnergiaRenovable.html">
+        <div class="slide">
+          <img src="fondo_header.jpg" alt="Imagen 1" />
+          <div class="texto-evento">
+            <h3>Conferencia sobre Energías Renovables</h3>
+            <p>Fecha: 25 de junio 2025</p>
+            <p>Conoce más sobre energías renovables y sostenibles.</p>
+          </div>
+        </div></a>
+        <a href="T_Compostaje.html">
+        <div class="slide">
+          <img src="fondo_header_1.jpg" alt="Imagen 2" />
+          <div class="texto-evento">
+            <h3>Taller de Compostaje</h3>
+            <p>Fecha: 30 de junio 2025</p>
+            <p>Aprende a convertir residuos orgánicos en abono natural.</p>
+          </div>
+        </div>
+        </a>
+        <a href="A_LimpiezaPlaya.html">
+        <div class="slide">
+          <img src="imagen_carrusel1.jpg" alt="Imagen 3" />
+          <div class="texto-evento">
+            <h3>Actividad de Limpieza de Playa</h3>
+            <p>Fecha: 10 de julio 2025</p>
+            <p>Únete a la comunidad para proteger nuestras costas.</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="botones">
+        <button onclick="moverCarrusel(-1)">❮</button>
+        <button onclick="moverCarrusel(1)">❯</button>
+      </div>
+    </div>
+
+    <script src="carrusel.js"></script>
+    
+    <section id="blog" class="blog-seccion">
+
+      <h2>Noticias y Artículos sobre Sostenibilidad</h2>
+      <div class="articulos">
+
+        <article class="articulo">
+          <h3>Cómo reducir tu huella de carbono en casa</h3>
+          <span class="fecha">15 de mayo, 2025</span>
+          <p>Descubre consejos prácticos para disminuir el impacto ambiental de tu hogar con pequeños cambios diarios.
+          </p>
+          <a href="#">Leer más →</a>
+        </article>
+
+        <article class="articulo">
+          <h3>Innovaciones en energías renovables 2025</h3>
+          <span class="fecha">10 de mayo, 2025</span>
+          <p>Un repaso a las tecnologías emergentes que están cambiando la forma en que generamos energía limpia.</p>
+          <a href="#">Leer más →</a>
+        </article>
+
+        <article class="articulo">
+          <h3>Beneficios del reciclaje para las ciudades</h3>
+          <span class="fecha">5 de mayo, 2025</span>
+          <p>Cómo la gestión adecuada de residuos mejora la calidad de vida y reduce la contaminación urbana.</p>
+          <a href="#">Leer más →</a>
+        </article>
+
+      </div>
+    </section>
+    <section class="seleccion">
+      <p>Registrarse</p>
+
+      <div class="ContenedorForm">
+        <form name="formulario informacion" action="formulario.php" method="get">
+          <table class="PosicionForm">
+            <thead>
+              <tr>
+                <td colspan="2">
+                  <h3>Datos de registro</h3>
+                </td>
+              </tr>
+            </thead>
+            <tr>
+              <td><label for="nombre">Nombre:</label></td>
+              <td><input id="nombre" type="text" name="nombre" maxlength="50" required></td>
+            </tr>
+            <tr>
+              <td><label for="apellidos">Apellidos:</label></td>
+              <td><input id="apellidos" type="text" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">E-mail:</label></td>
+              <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+              <td><label for="contraseña">Teléfono:</label></td>
+              <td><input type="password" id="contraseña" name="password"></td>
+            </tr>
+            <tfoot>
+              <tr>
+                <td colspan="2">
+                  <br>
+                  <button type="submit">Registrarse</button>
+                  <button type="reset">Limpiar</button>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+<footer>
+        <p>&copy; 2025 Portal Eventos Sostenibles. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:">sostenibilidad@gmail.com</a></p>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Facebook:<a href="https://www.facebook.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+        <p>Twitter: <a href="https://www.Twitter.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+    </footer>
+
+</html>
