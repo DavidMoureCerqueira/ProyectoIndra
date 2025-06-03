@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Eventos Sostenibles</title>
+    <link rel="stylesheet" href="listadoEventos.css">
+    <link rel="script" href="">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo_indra.png" alt="Logo de la empresa">
+            </div>
+            <h1>Portal Eventos Sostenibles</h1>
+        </div>
+
+        <nav class="menu-nav">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="listadoEventos.html">Listado eventos</a></li>
+            </ul>
+        </nav>
+        <div class="BotonesDerecha">
+            <button class="BotonIndividual">Iniciar sesión</button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="listado-seccion">
+            <div class=titulo>
+                <h2>Eventos</h2>
+            </div>
+                <article class="listado">
+                    <table>
+                        <caption>Eventos destacados</caption>
+                        <tr>
+                            <th>Tipo evento</th>
+                            <th>Nombre</th>
+                            <th>Fecha</th>
+                            <th>Horario</th>
+                            <th>Detalle</th>
+
+                        </tr>
+                        <tr>
+                            <td>Conferencia</td>
+                            <td>Conferencia sobre energías renovables</td>
+                            <td>25 de junio 2025</td>
+                            <td>12:00-20:00</td>
+                            <td><a href="C_EnergiaRenovable.html">Ver más</a></td>
+                        </tr>
+                        <tr>
+                            <td>Conferencia</td>
+                            <td>Conferencia sobre cambio climático</td>
+                            <td>25 de junio 2025</td>
+                            <td>12:00-20:00</td>
+                            <td><a href="C_CambioClimatico.html">Ver más</a></td>
+                        </tr>
+                        <tr>
+                            <td>Taller</td>
+                            <td>Taller de compostaje</td>
+                            <td>30 de junio 2025</td>
+                            <td>12:00-20:00</td>
+                            <td><a href="T_Compostaje.html">Ver más</a></td>
+                        </tr>
+                        <tr>
+                            <td>Taller</td>
+                            <td>Taller de cuidado de huerto</td>
+                            <td>30 de junio 2025</td>
+                            <td>12:00-20:00</td>
+                            <td><a href="T_CuidadoHuerto">Ver más</a></td>
+                        </tr>
+                        <tr>
+                            <td>Actividad</td>
+                            <td>Actividad de limpieza de playa</td>
+                            <td>10 de julio 2025</td>
+                            <td>10:00-20:00</td>
+                            <td><a href="A_LimpiezaPlaya.html">Ver más</a></td>
+                        </tr>
+                        <tr>
+                            <td>Actividad</td>
+                            <td>Actividad de limpieza en el bosque</td>
+                            <td>10 de julio 2025</td>
+                            <td>10:00-20:00</td>
+                            <td><a href="A_LimpiezaBosque.html">Ver más</a></td>
+                        </tr>
+                    </table>
+                </article>
+        </section>
+        <section class="seleccion">
+            <p>Registrarse</p>
+
+            <div class="ContenedorForm">
+                <form name="formulario informacion" action="formulario.php" method="get">
+                    <table class="PosicionForm">
+                        <thead>
+                            <tr>
+                                <td colspan="2">
+                                    <h3>Datos de registro</h3>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td><label for="nombre">Nombre:</label></td>
+                            <td><input id="nombre" type="text" name="nombre" maxlength="50" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="apellidos">Apellidos:</label></td>
+                            <td><input id="apellidos" type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="contraseña">Teléfono:</label></td>
+                            <td><input type="password" id="contraseña" name="password"></td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">
+                                    <br>
+                                    <button type="submit">Registrarse</button>
+                                    <button type="reset">Limpiar</button>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portal Eventos Sostenibles. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:">sostenibilidad@gmail.com</a></p>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Facebook:<a href="https://www.facebook.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+        <p>Twitter: <a href="https://www.Twitter.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+    </footer>
