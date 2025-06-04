@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Compostaje</title>
+    <link rel="stylesheet" href="css/Eventos.css">
+    <link rel="script" href="">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="images/logo_indra.png" alt="Logo de la empresa">
+            </div>
+            <h1>Portal Eventos Sostenibles</h1>
+        </div>
+
+        <nav class="menu-nav">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="listadoEventos.html">Listado eventos</a></li>
+            </ul>
+        </nav>
+        <div class="BotonesDerecha">
+            <button class="BotonIndividual">Iniciar sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <main>
+            <div class="info">
+                <p><strong>Fecha:</strong> 30 de junio de 2025</p>
+                <p><strong>Horario:</strong> 12:00 – 20:00</p>
+                <p><strong>Ubicación:</strong> Huerto Comunitario El Laurel, Sevilla</p>
+            </div>
+
+            <p>Participa en este taller práctico donde aprenderás todo lo necesario sobre el compostaje doméstico y comunitario. Ideal para personas interesadas en reducir residuos orgánicos y enriquecer el suelo de forma natural.</p>
+
+            <p>El taller incluye sesiones teóricas, demostraciones en vivo y actividades interactivas con materiales compostables. No se requiere experiencia previa.</p>
+
+            <h2>Temas principales:</h2>
+            <ul>
+                <li>¿Qué es el compostaje y por qué es importante?</li>
+                <li>Materiales adecuados para compostar</li>
+                <li>Métodos de compostaje casero</li>
+                <li>Errores comunes y cómo solucionarlos</li>
+            </ul>
+
+            <p><strong>Inscripción gratuita</strong> — plazas limitadas. Se recomienda traer ropa cómoda y guantes de jardín.</p>
+
+            <a class="volver" href="listadoEventos.html">&larr; Volver al listado de eventos</a>
+            <button class="boton-inscripcion">Inscribirse</button>
+        </main>
+    </main>
+
+    <section class="seleccion">
+        <p>Registrarse</p>
+
+        <div class="ContenedorForm">
+            <form name="formulario informacion" action="formulario.php" method="get">
+                <table class="PosicionForm">
+                    <thead>
+                        <tr>
+                            <td colspan="2">
+                                <h3>Datos de registro</h3>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input id="nombre" type="text" name="nombre" maxlength="50" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellidos">Apellidos:</label></td>
+                        <td><input id="apellidos" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="contraseña">Teléfono:</label></td>
+                        <td><input type="password" id="contraseña" name="password"></td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <br>
+                                <button type="submit">Registrarse</button>
+                                <button type="reset">Limpiar</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portal Eventos Sostenibles. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:">sostenibilidad@gmail.com</a></p>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Facebook:<a href="https://www.facebook.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+        <p>Twitter: <a href="https://www.Twitter.com/sustentabilidad/" target="_blank">sustentabilidad</a></p>
+    </footer>
+</body>
+</html>
